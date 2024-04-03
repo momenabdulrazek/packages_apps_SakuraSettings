@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-19 Superior OS Project
-
+    Copyright © 2018-24 Superior OS Project
+     Copyright (C) 2020-24 Project Sakura
+     
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
@@ -29,7 +30,7 @@
             android:key="dev_info"
             android:title="@string/sakura_about_info"
             android:summary="@string/sakura_about_info_summary_title"
-            android:fragment="com.android.settings.custom.SuperiorDevsInfoFragment"/>
+            android:fragment="com.android.settings.custom.SakuraDevsInfoFragment"/>
 
     </PreferenceCategory>
 

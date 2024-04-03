@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 The AOSP-RRO Project
-     Copyright (C) 2018-19 The Superior OS Project
+     Copyright (C) 2018-24 The Superior OS Project
+     Copyright (C) 2020-24 Project Sakura
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -29,7 +30,7 @@
                android:icon="@drawable/ic_devs_info" >
         <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://paypal.me/Sipun?locale.x=en_GB" />
+               android:data="https://paypal.me/LordShen" />
         </Preference>
 </PreferenceCategory>
 
@@ -44,7 +45,7 @@
             android:summary="@string/dev1_description" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/Darkstar085" />
+            android:data="https://t.me/LordShenron" />
         </Preference>
 
         <Preference
@@ -54,7 +55,7 @@
             android:summary="@string/dev2_description" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/JD1811" />
+            android:data="https://telegram.me/ReveRTX" />
         </Preference>
 
         <Preference
@@ -64,7 +65,7 @@
             android:summary="@string/dev3_description" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/Joker_V2_0" />
+            android:data="https://telegram.me/NotUsingTheName" />
         </Preference>
 
         <Preference
@@ -74,19 +75,8 @@
             android:summary="@string/dev4_description" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/adnan_fays" />
+            android:data="https://telegram.me/ProB0MBER" />
         </Preference>
-
-        <Preference
-            android:key="dev5"
-            android:title="@string/dev_5"
-            android:icon="@drawable/ic_code"
-            android:summary="@string/dev5_description" >
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/T3rr0r1st" />
-        </Preference>
-
 </PreferenceCategory>
 
 <!-- <PreferenceCategory
@@ -94,38 +84,17 @@
     android:title="@string/mentions_header">
 
         <Preference
-            android:key="mentions_pavan"
-            android:title="@string/mentions_pavan"
+            android:key="mentions_name"
+            android:title="@string/mentions_name"
             android:icon="@drawable/ic_devs_mention"
-            android:summary="@string/mentions_pavan_description" >
+            android:summary="@string/mentions_name_description" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/Advertpavan" />
+            android:data="https://t.me/username" />
         </Preference>
-
-        <Preference
-            android:key="mentions_sam"
-            android:title="@string/mentions_sam"
-            android:summary="@string/mentions_sam_description"
-            android:icon="@drawable/ic_devs_mention">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/Reapergod35" />
-        </Preference>
-
-        <Preference
-            android:key="mentions_iacob"
-            android:title="@string/mentions_iacob"
-            android:summary="@string/mentions_iacob_description"
-            android:icon="@drawable/ic_devs_mention">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/iacobionut" />
-        </Preference>
-
 </PreferenceCategory> -->
 
-<PreferenceCategory
+<!-- <PreferenceCategory
             android:key="maintainer"
             android:title="@string/maintainers_header" >
 			
@@ -134,8 +103,8 @@
             android:icon="@drawable/ic_devs_info" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://www.github.com/SuperiorOS-Devices" />
+            android:data="https://www.github.com/Sakura-Devices" />
         </Preference>
-</PreferenceCategory>
+</PreferenceCategory> -->
 
 </PreferenceScreen>
