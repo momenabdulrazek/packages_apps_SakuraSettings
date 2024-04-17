@@ -60,7 +60,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private static final String CUSTOM_HEADER_PROVIDER = "custom_header_provider";
     private static final String STATUS_BAR_CUSTOM_HEADER = "status_bar_custom_header";
     private static final String FILE_HEADER_SELECT = "file_header_select";
-
+    private static final String KEY_NOTIFICATION_CLEAR_STYLE = "notification_material_dismiss_style";
+    private static final String KEY_NOTIFICATION_CLEAR_BGSTYLE = "notification_material_dismiss_bgstyle";
     private static final int REQUEST_PICK_IMAGE = 0;
 
     private Preference mHeaderBrowse;
@@ -270,5 +271,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.System.QS_TILE_LABEL_HIDE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_TILE_LABEL_SIZE, 14, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.NOTIFICATION_MATERIAL_DISMISS, 0, UserHandle.USER_CURRENT);
    }
 }
