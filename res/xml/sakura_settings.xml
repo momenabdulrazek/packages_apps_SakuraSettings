@@ -73,6 +73,7 @@
             android:key="quicksettings_category"
             android:title="@string/quicksettings_title"
             android:fragment="com.sakura.settings.fragments.QuickSettings"
+	    android:summary="@string/sakura_quicksettings_summary_title"
             android:icon="@drawable/ic_settings_quicksettings"/>
 
         <!-- Lock Screen -->
