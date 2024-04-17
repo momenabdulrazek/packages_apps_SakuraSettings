@@ -38,12 +38,27 @@
             android:key="features"
             android:title="Personalizations" >
 
-        <!-- Status Bar -->
+        <!-- Statusbar-->
         <com.sakura.settings.preferences.CardviewPreference
-            android:key="statusbar_category"
-            android:title="@string/statusbar_title"
-            android:fragment="com.sakura.settings.fragments.StatusbarSettings"
-            android:icon="@drawable/ic_settings_statusbar"/>
+            android:key="los_statusbar"
+            android:icon="@drawable/ic_settings_statusbar"
+            android:title="@string/statusbar_settings"
+            android:summary="@string/statusbar_settings_summary">
+                <intent android:action="org.lineageos.lineageparts.STATUS_BAR_SETTINGS"
+                    android:targetPackage="org.lineageos.lineageparts"
+                    android:targetClass="org.lineageos.lineageparts.statusbar.StatusBarSettings" />
+        </com.sakura.settings.preferences.CardviewPreference>
+
+        <!-- Buttons-->
+        <com.sakura.settings.preferences.CardviewPreference
+            android:key="los_buttons"
+            android:icon="@drawable/ic_settings_buttons"
+            android:title="@string/buttons_settings"
+            android:summary="@string/buttons_settings_summary">
+            <intent android:action="org.lineageos.lineageparts.BUTTON_SETTINGS"
+                    android:targetPackage="org.lineageos.lineageparts"
+                    android:targetClass="org.lineageos.lineageparts.input.ButtonSettings" />
+        </com.sakura.settings.preferences.CardviewPreference>
 
         <!-- Quick Settings panel -->
         <com.sakura.settings.preferences.CardviewPreference
@@ -51,27 +66,6 @@
             android:title="@string/quicksettings_title"
             android:fragment="com.sakura.settings.fragments.QuickSettings"
             android:icon="@drawable/ic_settings_quicksettings"/>
-
-        <!-- Buttons -->
-        <com.sakura.settings.preferences.CardviewPreference
-            android:key="buttonsettings_category"
-            android:title="@string/button_title"
-            android:fragment="com.sakura.settings.fragments.ButtonSettings"
-            android:icon="@drawable/ic_settings_buttons"/>
-
-        <!-- Navigation Bar -->
-        <com.sakura.settings.preferences.CardviewPreference
-            android:key="navigationbar_category"
-            android:title="@string/navbar_title"
-            android:fragment="com.sakura.settings.fragments.NavbarSettings"
-            android:icon="@drawable/ic_settings_navbar"/>
-			
-        <!-- Gestures -->
-        <com.sakura.settings.preferences.CardviewPreference
-            android:key="gestures_category"
-            android:title="@string/gestures_title"
-            android:fragment="com.sakura.settings.fragments.GestureSettings"
-            android:icon="@drawable/ic_settings_gestures"/>
 
         <!-- Lock Screen -->
         <com.sakura.settings.preferences.CardviewPreference

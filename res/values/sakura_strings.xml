@@ -43,28 +43,33 @@
     <string name="dev_4_git" translatable="false">ArunTeltia</string>
     <string name="dev4_description">Web Developer</string>
 
-    <!-- Maintainer Info
-    <string name="maintainers_header">Maintainers</string>
-    <string name="maintainers_header_summary">These are the Official Devices Maintainers...</string>
-    <string name="device_xiaomi">Xiaomi</string>
-    <string name="device_asus">Asus</string>
-    <string name="device_motorola">Motorola</string>
-    <string name="device_pantech">Pantech</string>
-    <string name="device_lenovo">Lenovo</string>
-    <string name="device_oneplus">Oneplus</string>
-    <string name="device_smartron">Smartron</string>
-    <string name="device_mido">Redmi Note 4</string> -->
-
     <!-- Categories -->
     <string name="statusbar_title">Status Bar</string>
-    <string name="quicksettings_title">Quick Settings</string>
-    <string name="button_title">Buttons</string>
-    <string name="navbar_title">Navigation Bar</string>
     <string name="gestures_title">Gestures</string>
+    <string name="sakura_gesture_summary_title">Three finger swipe, layouts and AOSP gestures</string>
     <string name="lockscreen_title">Lock Screen</string>
-    <string name="powermenu_title">Power Menu</string>
-    <string name="notifications_title">Notifications</string>
+    <string name="sakura_lockscreen_summary_title">lockscreen charging and secure lockscreen</string>
     <string name="misc_title">Miscellaneous</string>
+    <string name="sakura_misc_summary_title">Gaming mode and misc options</string>
+    <string name="parts_title">LineageParts</string>
+    <string name="sakura_parts_summary_title">statusbar, buttons and other lineage settings</string>
+    <string name="quicksettings_title">Quick Settings</string>
+    <string name="sakura_quicksettings_summary_title">Tile title, header images, opacity</string>
+    <string name="interface_title">Interface</string>
+    <string name="sakura_interface_summary_title">Theming, battery bar and network meter</string>
+    <string name="animation_title">Animations</string>
+    <string name="sakura_animation_summary_title">Opening and closing animations</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="sakura_notifications_summary_title">Heads up, horizon lights, vibration options</string>
+    <string name="sakura_updater_summary_title">OTA updates</string>
+    <string name="updater_title">Sakura Updates</string>
+    <string name="buttons_settings">Buttons settings</string>
+    <string name="buttons_settings_summary">LineageOS buttons settings</string>
+    <string name="statusbar_settings">Statusbar settings</string>
+    <string name="statusbar_settings_summary">LineageOS statusbar tweaks</string>
+    <string name="button_title">Buttons</string>
+    <string name="powermenu_title">Power Menu</string>
+    <string name="navbar_title">Navigation Bar</string>
 
     <!-- Wifi/Bluetooth auto timeout -->
     <string name="wifi_timeout">WiFi timeout</string>
@@ -122,4 +127,8 @@
 
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] --> 
     <string name="duration_less_than_one_minute">Less than 1 Minute</string> 
+
+    <!-- Tap to sleep on status bar -->
+    <string name="lockscreen_doubletap_sleep_title">Tap to sleep</string>
+    <string name="lockscreen_doubletap_sleep_summary">Double-tap on the lock screen to put device asleep</string>
 </resources>
