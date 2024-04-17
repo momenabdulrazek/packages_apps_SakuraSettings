@@ -60,6 +60,14 @@
                     android:targetClass="org.lineageos.lineageparts.input.ButtonSettings" />
         </com.sakura.settings.preferences.CardviewPreference>
 
+	<!-- gesture settings -->
+	<com.sakura.settings.preferences.CardviewPreference
+            android:key="gesture_settings"
+            android:title="@string/aosp_gesture_title"
+            android:icon="@drawable/ic_settings_gestures"
+            android:summary="@string/aosp_gesture_summary"        
+            android:fragment="com.android.settings.gestures.GestureSettings" />
+
         <!-- Quick Settings panel -->
         <com.sakura.settings.preferences.CardviewPreference
             android:key="quicksettings_category"
