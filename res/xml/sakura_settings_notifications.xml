@@ -20,4 +20,19 @@
     android:title="@string/notifications_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+     <!-- headsup toggle-->
+     <com.sakura.support.preferences.GlobalSettingSwitchPreference
+         android:key="heads_up_notifications_enabled"
+         android:title="@string/notification_heads_up_title"
+         android:summary="@string/notification_heads_up_summary"
+         android:defaultValue="true" />
+
+     <!-- less boring headsup-->
+     <com.sakura.support.preferences.SystemSettingSwitchPreference
+         android:key="less_boring_heads_up"
+         android:title="@string/less_boring_heads_up_title"
+         android:summary="@string/less_boring_heads_up_summary"
+         android:defaultValue="false"
+         android:dependency="heads_up_notifications_enabled" />
+
 </PreferenceScreen>

@@ -28,7 +28,7 @@
          android:defaultValue="false" />
      
      <!--bluetooth battery icons-->
-     <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+     <com.sakura.support.preferences.SystemSettingSwitchPreference
          android:key="bluetooth_show_battery"
          android:title="@string/bluetooth_battery_title"
          android:summary="@string/bluetooth_battery_summary"
