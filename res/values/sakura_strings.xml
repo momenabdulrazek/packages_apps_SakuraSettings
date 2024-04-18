@@ -17,205 +17,184 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="sakura_settings_title">Sakura Configs</string>
-    <string name="sakura_dashboard_summary">Feels Like Spring..</string>
-	
-    <!-- ROM Info -->
-    <string name="sakura_about_info">About Project</string>
-    <string name="sakura_about_info_summary_title">About Team</string>
-    <string name="sakura_about_info_summary">A customised Lineage OS. Its sole purpose is to provide a platform which is powered by Lineage and is more customisable than Lineage.</string>
-
-    <!-- Dev Info -->
-    <string name="devs_header">Family Members</string>
-    <!-- The broken Lord -->
-    <string name="dev_1">Shen</string>
-    <string name="dev_1_git" translatable="false">LordShenron</string>
-    <string name="dev1_description">Founder/Developer</string>
-    <!-- RTX in name but uses a potato PC/laptop -->
-    <string name="dev_2">ReveRTX</string>
-    <string name="dev_2_git" translatable="false">ReveRTX</string>
-    <string name="dev2_description">Core Developer</string>
-    <!-- Motivational Speaker -->
-    <string name="dev_3">ArmSM</string>
-    <string name="dev_3_git" translatable="false">ArmSM</string>
-    <string name="dev3_description">Core Team</string>
-    <string name="dev_4">ArunTeltia</string>
-    <string name="dev_4_git" translatable="false">ArunTeltia</string>
-    <string name="dev4_description">Web Developer</string>
-
-    <!-- Categories -->
-    <string name="statusbar_title">Status Bar</string>
-    <string name="gestures_title">Gestures</string>
-    <string name="sakura_gesture_summary_title">Three finger swipe, layouts and AOSP gestures</string>
-    <string name="lockscreen_title">Lock Screen</string>
-    <string name="sakura_lockscreen_summary_title">lockscreen charging and secure lockscreen</string>
-    <string name="misc_title">Miscellaneous</string>
-    <string name="sakura_misc_summary_title">Gaming mode and misc options</string>
-    <string name="parts_title">LineageParts</string>
-    <string name="sakura_parts_summary_title">statusbar, buttons and other lineage settings</string>
-    <string name="quicksettings_title">Quick Settings</string>
-    <string name="sakura_quicksettings_summary_title">Tile title, header images, opacity</string>
-    <string name="interface_title">Interface</string>
-    <string name="sakura_interface_summary_title">Theming, battery bar and network meter</string>
-    <string name="animation_title">Animations</string>
-    <string name="sakura_animation_summary_title">Opening and closing animations</string>
-    <string name="notifications_title">Notifications</string>
-    <string name="sakura_notifications_summary_title">Heads up, horizon lights, vibration options</string>
-    <string name="sakura_updater_summary_title">OTA updates</string>
-    <string name="updater_title">Sakura Updates</string>
-    <string name="buttons_settings">Buttons settings</string>
-    <string name="buttons_settings_summary">LineageOS buttons settings</string>
-    <string name="statusbar_settings">Statusbar settings</string>
-    <string name="statusbar_settings_summary">LineageOS statusbar tweaks</string>
-    <string name="button_title">Buttons</string>
-    <string name="powermenu_title">Power Menu</string>
-    <string name="navbar_title">Navigation Bar</string>
-
-    <!-- Wifi/Bluetooth auto timeout -->
-    <string name="wifi_timeout">WiFi timeout</string>
-    <string name="wifi_timeout_summary">Do not automatically turn off WiFi</string>
-    <string name="wifi_timeout_summary_auto">WiFi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
-    <string name="bluetooth_timeout">Bluetooth timeout</string>
-    <string name="bluetooth_timeout_summary">Do not automatically turn off Bluetooth</string>
-    <string name="bluetooth_timeout_summary_auto">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
-    <string name="custom_timeout_summary_never">Never</string>
-    <string name="custom_timeout_summary_5secs">5 seconds</string>
-    <string name="custom_timeout_summary_10secs">10 seconds</string>
-    <string name="custom_timeout_summary_15secs">15 seconds</string>
-    <string name="custom_timeout_summary_30secs">30 seconds</string>
-    <string name="custom_timeout_summary_1min">1 minute</string>
-    <string name="custom_timeout_summary_2mins">2 minutes</string>
-    <string name="custom_timeout_summary_5mins">5 minutes</string>
-    <string name="custom_timeout_summary_10mins">10 minutes</string>
-    <string name="custom_timeout_summary_20mins">20 minutes</string>
-    <string name="custom_timeout_summary_30mins">30 minutes</string>
-    <string name="custom_timeout_summary_1hour">1 hour</string>
-    <string name="custom_timeout_summary_2hours">2 hours</string>
-    <string name="custom_timeout_summary_4hours">4 hours</string>
-    <string name="custom_timeout_summary_8hours">8 hours</string>
-
-    <!-- Gesture navbar length -->
-    <string name="gesture_navbar_length_title">Pill length</string>
-    <string name="short_label">Short</string>
-    <string name="long_label">Long</string>
-
-    <!-- Back gesture height -->
-    <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
-    <string name="back_height_title">Back gesture height</string>
-    <string name="back_height_summary">Screen height valid for back gesture</string>
-
-    <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_title">Back gesture animation</string>
-    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
-
-    <!-- Back gesture haptic -->
-    <string name="back_gesture_haptic_title">Back gesture haptic</string>
-    <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>
-
-    <!-- Deep Sleep percentage in device info -->
-    <string name="status_sleep_time">Deep sleep</string>
-
-    <!-- Auto pin confirm -->
-    <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>
-
-    <!-- Running services - Background processes tab -->
-    <string name="background_processes_settings_title">Background processes</string>
-
-    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
-    <string name="screen_time_summary_usage_today">%1$s today</string>
-
-    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] --> 
-    <string name="duration_less_than_one_minute">Less than 1 Minute</string> 
-
-    <!-- Tap to sleep on status bar -->
-    <string name="lockscreen_doubletap_sleep_title">Tap to sleep</string>
-    <string name="lockscreen_doubletap_sleep_summary">Double-tap on the lock screen to put device asleep</string>
-
-    <!-- AOSP Gestures -->
-    <string name="aosp_gesture_title">Gestures</string>
-    <string name="aosp_gesture_summary">gestures settings and toggles</string>
-
-      <!-- Custom headers -->
-    <string name="notification_title">Notification panel</string>
-    <string name="status_bar_custom_header_title">Enable</string>
-    <string name="daylight_header_pack_title">Header image collection</string>
-    <string name="status_bar_custom_header_shadow_title">Header image shadow</string>
-    <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
-    <string name="unit_percent">\u0025</string>
-    <string name="static_header_provider" translatable="false">static</string>
-    <string name="daylight_header_provider" translatable="false">daylight</string>
-    <string name="static_header_provider_title">Static image</string>
-    <string name="daylight_header_provider_title">Image collection</string>
-    <string name="custom_header_provider_title">Header provider</string>
-    <string name="custom_header_pick_title">Select header image</string>
-    <string name="custom_header_pick_summary">Select a local or remote image</string>
-    <string name="style_enabled_summary">Custom header image is ON</string>
-    <string name="style_disabled_summary">Custom header image is OFF</string>
-    <string name="header_provider_disabled">Disabled</string>
-    <string name="custom_header_title">Custom header image</string>
-    <string name="file_header_select_title">Select local image</string>
-    <string name="file_header_select_summary">Select image from storage</string>
-    <string name="file_header_provider_title">Single image</string>
-    <string name="file_header_provider" translatable="false">file</string>
-
-    <!-- QS tiles layout  -->
-    <string name="qs_tile_label_size_title">Label text size</string>
-    <string name="qs_layout_category_title">Tiles layout</string>
-    <string name="qs_tile_label_hide_title">Hide label</string>
-    <string name="qs_tile_label_hide_summary">Only show icon in tile</string>
-    <string name="qs_tile_layout_title">Vertical layout</string>
-    <string name="qs_tile_layout_summary">Show label below icon instead next to icon</string>
-    <string name="qs_columns_portrait_title">Columns (portrait)</string>
-    <string name="qs_columns_landscape_title">Columns (landscape)</string>
-
-    <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">Clear all notification button</string>
-    <string name="notification_material_dismiss_summary">Replace clear all notification text with material style floating button</string>
-    <string name="notification_material_dismiss_style_title">Button style</string>
-    <string name="notification_material_dismiss_bgstyle_title">Button background</string>
-
-    <!-- Data usage info in QS footer -->
-    <string name="qs_footer_datausage_title">Data usage</string>
-    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
-
-    <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>
-
-    <!-- Lockscreen battery info indicator -->
-    <string name="lockscreen_battery_info_title">Battery info</string>
-    <string name="lockscreen_battery_info_summary">Display battery info when charging</string>
-
-    <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_enable_power_menu_title">Power menu</string>
-    <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
-
-    <!-- Fingerprint Ripple Effect -->
-    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
-    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
-
-    <!-- Disable QS -->
-    <string name="disable_qs_title">Hide QS on secure lock screen</string>
-    <string name="disable_qs_summary">Prevent access to QS tiles on secure lock screen</string>
-
-    <!-- Brightness slider haptic feedback -->
-    <string name="qs_brightness_slider_haptic_title">Haptic feedback</string>
-    <string name="qs_brightness_slider_haptic_summary">Provide haptic feedback on changing brightness using slider</string>
-
-    <!-- WiFi Standard icon -->
-    <string name="wifi_standard_icon_title">WiFi standard</string>
-    <string name="wifi_standard_icon_summary">Display WiFi standard next to WiFi signal</string>
-
-    <!-- roaming indicator-->
-    <string name="roaming_indicator_icon_title">Roaming indicator</string>
-    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
-
-    <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
-
-    <!-- Data disabled indicator -->
-    <string name="data_disabled_icon_title">Data disabled indicator</string>
-    <string name="data_disabled_icon_summary">Display the cross sign next to signal icon when data is disabled</string>
+  <string name="sakura_settings_title">Sakura Configs</string>
+  <string name="sakura_dashboard_summary">Feels Like Spring..</string>
+  
+  <!-- ROM Info -->
+  <string name="sakura_about_info">About Project</string>
+  <string name="sakura_about_info_summary_title">About Team</string>
+  <string name="sakura_about_info_summary">A customised Lineage OS. Its sole purpose is to provide a platform which is powered by Lineage and is more customisable than Lineage.</string> 
+  <!-- Dev Info -->
+  <string name="devs_header">Family Members</string>
+  <!-- The broken Lord -->
+  <string name="dev_1">Shen</string>
+  <string name="dev_1_git" translatable="false">LordShenron</string>
+  <string name="dev1_description">Founder/Developer</string>
+  <!-- RTX in name but uses a potato PC/laptop -->
+  <string name="dev_2">ReveRTX</string>
+  <string name="dev_2_git" translatable="false">ReveRTX</string>
+  <string name="dev2_description">Core Developer</string>
+  <!-- Motivational Speaker -->
+  <string name="dev_3">ArmSM</string>
+  <string name="dev_3_git" translatable="false">ArmSM</string>
+  <string name="dev3_description">Core Team</string>
+  <string name="dev_4">ArunTeltia</string>
+  <string name="dev_4_git" translatable="false">ArunTeltia</string>
+  <string name="dev4_description">Web Developer</string>  
+  <!-- Categories -->
+  <string name="statusbar_title">Status Bar</string>
+  <string name="gestures_title">Gestures</string>
+  <string name="sakura_gesture_summary_title">Three finger swipe, layouts and AOSP gestures</string>
+  <string name="lockscreen_title">Lock Screen</string>
+  <string name="sakura_lockscreen_summary_title">lockscreen charging and secure lockscreen</string>
+  <string name="misc_title">Miscellaneous</string>
+  <string name="sakura_misc_summary_title">Gaming mode and misc options</string>
+  <string name="parts_title">LineageParts</string>
+  <string name="sakura_parts_summary_title">statusbar, buttons and other lineage settings</string>
+  <string name="quicksettings_title">Quick Settings</string>
+  <string name="sakura_quicksettings_summary_title">Tile title, header images, opacity</string>
+  <string name="interface_title">Interface</string>
+  <string name="sakura_interface_summary_title">Theming, battery bar and network meter</string>
+  <string name="animation_title">Animations</string>
+  <string name="sakura_animation_summary_title">Opening and closing animations</string>
+  <string name="notifications_title">Notifications</string>
+  <string name="sakura_notifications_summary_title">Heads up, horizon lights, vibration options</string>
+  <string name="sakura_updater_summary_title">OTA updates</string>
+  <string name="updater_title">Sakura Updates</string>
+  <string name="buttons_settings">Buttons settings</string>
+  <string name="buttons_settings_summary">LineageOS buttons settings</string>
+  <string name="statusbar_settings">Statusbar settings</string>
+  <string name="statusbar_settings_summary">LineageOS statusbar tweaks</string>
+  <string name="button_title">Buttons</string>
+  <string name="powermenu_title">Power Menu</string>
+  <string name="navbar_title">Navigation Bar</string> 
+  <!-- Wifi/Bluetooth auto timeout -->
+  <string name="wifi_timeout">WiFi timeout</string>
+  <string name="wifi_timeout_summary">Do not automatically turn off WiFi</string>
+  <string name="wifi_timeout_summary_auto">WiFi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+  <string name="bluetooth_timeout">Bluetooth timeout</string>
+  <string name="bluetooth_timeout_summary">Do not automatically turn off Bluetooth</string>
+  <string name="bluetooth_timeout_summary_auto">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
+  <string name="custom_timeout_summary_never">Never</string>
+  <string name="custom_timeout_summary_5secs">5 seconds</string>
+  <string name="custom_timeout_summary_10secs">10 seconds</string>
+  <string name="custom_timeout_summary_15secs">15 seconds</string>
+  <string name="custom_timeout_summary_30secs">30 seconds</string>
+  <string name="custom_timeout_summary_1min">1 minute</string>
+  <string name="custom_timeout_summary_2mins">2 minutes</string>
+  <string name="custom_timeout_summary_5mins">5 minutes</string>
+  <string name="custom_timeout_summary_10mins">10 minutes</string>
+  <string name="custom_timeout_summary_20mins">20 minutes</string>
+  <string name="custom_timeout_summary_30mins">30 minutes</string>
+  <string name="custom_timeout_summary_1hour">1 hour</string>
+  <string name="custom_timeout_summary_2hours">2 hours</string>
+  <string name="custom_timeout_summary_4hours">4 hours</string>
+  <string name="custom_timeout_summary_8hours">8 hours</string> 
+  <!-- Gesture navbar length -->
+  <string name="gesture_navbar_length_title">Pill length</string>
+  <string name="short_label">Short</string>
+  <string name="long_label">Long</string> 
+  <!-- Back gesture height -->
+  <string name="back_height_low_label">Full</string>
+  <string name="back_height_high_label">Bottom</string>
+  <string name="back_height_title">Back gesture height</string>
+  <string name="back_height_summary">Screen height valid for back gesture</string>  
+  <!-- Back gesture animation -->
+  <string name="back_gesture_arrow_title">Back gesture animation</string>
+  <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>  
+  <!-- Back gesture haptic -->
+  <string name="back_gesture_haptic_title">Back gesture haptic</string>
+  <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>  
+  <!-- Deep Sleep percentage in device info -->
+  <string name="status_sleep_time">Deep sleep</string>  
+  <!-- Auto pin confirm -->
+  <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>  
+  <!-- Running services - Background processes tab -->
+  <string name="background_processes_settings_title">Background processes</string>  
+  <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+  <string name="screen_time_summary_usage_today">%1$s today</string>  
+  <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] --> 
+  <string name="duration_less_than_one_minute">Less than 1 Minute</string>  
+  <!-- Tap to sleep on status bar -->
+  <string name="lockscreen_doubletap_sleep_title">Tap to sleep</string>
+  <string name="lockscreen_doubletap_sleep_summary">Double-tap on the lock screen to put device asleep</string> 
+  <!-- AOSP Gestures -->
+  <string name="aosp_gesture_title">Gestures</string>
+  <string name="aosp_gesture_summary">gestures settings and toggles</string>  
+    <!-- Custom headers -->
+  <string name="notification_title">Notification panel</string>
+  <string name="status_bar_custom_header_title">Enable</string>
+  <string name="daylight_header_pack_title">Header image collection</string>
+  <string name="status_bar_custom_header_shadow_title">Header image shadow</string>
+  <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
+  <string name="unit_percent">\u0025</string>
+  <string name="static_header_provider" translatable="false">static</string>
+  <string name="daylight_header_provider" translatable="false">daylight</string>
+  <string name="static_header_provider_title">Static image</string>
+  <string name="daylight_header_provider_title">Image collection</string>
+  <string name="custom_header_provider_title">Header provider</string>
+  <string name="custom_header_pick_title">Select header image</string>
+  <string name="custom_header_pick_summary">Select a local or remote image</string>
+  <string name="style_enabled_summary">Custom header image is ON</string>
+  <string name="style_disabled_summary">Custom header image is OFF</string>
+  <string name="header_provider_disabled">Disabled</string>
+  <string name="custom_header_title">Custom header image</string>
+  <string name="file_header_select_title">Select local image</string>
+  <string name="file_header_select_summary">Select image from storage</string>
+  <string name="file_header_provider_title">Single image</string>
+  <string name="file_header_provider" translatable="false">file</string>  
+  <!-- QS tiles layout  -->
+  <string name="qs_tile_label_size_title">Label text size</string>
+  <string name="qs_layout_category_title">Tiles layout</string>
+  <string name="qs_tile_label_hide_title">Hide label</string>
+  <string name="qs_tile_label_hide_summary">Only show icon in tile</string>
+  <string name="qs_tile_layout_title">Vertical layout</string>
+  <string name="qs_tile_layout_summary">Show label below icon instead next to icon</string>
+  <string name="qs_columns_portrait_title">Columns (portrait)</string>
+  <string name="qs_columns_landscape_title">Columns (landscape)</string>  
+  <!-- Material dismiss all button for notifications -->
+  <string name="notification_material_dismiss_title">Clear all notification button</string>
+  <string name="notification_material_dismiss_summary">Replace clear all notification text with material style floating button</string>
+  <string name="notification_material_dismiss_style_title">Button style</string>
+  <string name="notification_material_dismiss_bgstyle_title">Button background</string> 
+  <!-- Data usage info in QS footer -->
+  <string name="qs_footer_datausage_title">Data usage</string>
+  <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string> 
+  <!-- Three-fingers-swipe to screenshot -->
+  <string name="three_finger_gesture">Swipe to screenshot</string>
+  <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string> 
+  <!-- Lockscreen battery info indicator -->
+  <string name="lockscreen_battery_info_title">Battery info</string>
+  <string name="lockscreen_battery_info_summary">Display battery info when charging</string>  
+  <!-- Power menu on secure lockscreen -->
+  <string name="lockscreen_enable_power_menu_title">Power menu</string>
+  <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>  
+  <!-- Fingerprint Ripple Effect -->
+  <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+  <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>  
+  <!-- Disable QS -->
+  <string name="disable_qs_title">Hide QS on secure lock screen</string>
+  <string name="disable_qs_summary">Prevent access to QS tiles on secure lock screen</string> 
+  <!-- Brightness slider haptic feedback -->
+  <string name="qs_brightness_slider_haptic_title">Haptic feedback</string>
+  <string name="qs_brightness_slider_haptic_summary">Provide haptic feedback on changing brightness using slider</string> 
+  <!-- WiFi Standard icon -->
+  <string name="wifi_standard_icon_title">WiFi standard</string>
+  <string name="wifi_standard_icon_summary">Display WiFi standard next to WiFi signal</string>  
+  <!-- roaming indicator-->
+  <string name="roaming_indicator_icon_title">Roaming indicator</string>
+  <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>  
+  <!-- 4G icon -->
+  <string name="show_fourg_icon_title">4G icon</string>
+  <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>  
+  <!-- Data disabled indicator -->
+  <string name="data_disabled_icon_title">Data disabled indicator</string>
+  <string name="data_disabled_icon_summary">Display the cross sign next to signal icon when data is disabled</string> 
+  <!-- Privacy Indicator -->
+  <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
+  <string name="mic_camera_privacy_indicator_summary">Show indicator when any app uses mic or camera</string>
+  <string name="location_privacy_indicator_title">Location privacy indicator</string>
+  <string name="location_privacy_indicator_summary">Show indicator when any app uses location</string>
+  <string name="projection_privacy_indicator_title">Media projection privacy indicator</string>
+  <string name="projection_privacy_indicator_summary">Show indicator when device screen is projected</string>
 </resources>
