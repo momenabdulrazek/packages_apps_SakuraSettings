@@ -27,4 +27,10 @@
          android:summary="@string/lockscreen_doubletap_sleep_summary"
          android:defaultValue="true" />
 
+     <!--lockscreen charging info-->
+     <com.sakura.support.preferences.SystemSettingSwitchPreference
+         android:key="lockscreen_battery_info"
+         android:title="@string/lockscreen_battery_info_title"
+         android:summary="@string/lockscreen_battery_info_summary"
+         android:defaultValue="true" />
 </PreferenceScreen>
