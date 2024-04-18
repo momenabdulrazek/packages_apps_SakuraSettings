@@ -20,16 +20,6 @@
     android:title="@string/quicksettings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <!-- qs tile label size -->
-    <com.sakura.support.preferences.SystemSettingSeekBarPreference
-        android:key="qs_tile_label_size"
-        android:title="@string/qs_tile_label_size_title"
-        android:max="15"
-        settings:min="10"
-        settings:interval="1"
-        settings:units="sp"
-        android:defaultValue="14" />
-
     <!-- clear all button style -->
     <com.sakura.support.preferences.SystemSettingSwitchPreference
         android:key="notification_material_dismiss"
@@ -103,22 +93,36 @@
 
     </PreferenceCategory>
 
+    <!-- QS layout category-->
     <PreferenceCategory
         android:key="qs_layout_category"
         android:title="@string/qs_layout_category_title">
 
+        <!-- qs tile label size -->
+        <com.sakura.support.preferences.SystemSettingSeekBarPreference
+            android:key="qs_tile_label_size"
+            android:title="@string/qs_tile_label_size_title"
+            android:max="15"
+            settings:min="10"
+            settings:interval="1"
+            settings:units="sp"
+            android:defaultValue="14" />
+
+        <!-- qs tile label hide-->    
         <com.sakura.support.preferences.SystemSettingSwitchPreference
             android:key="qs_tile_label_hide"
             android:title="@string/qs_tile_label_hide_title"
             android:summary="@string/qs_tile_label_hide_summary"
             android:defaultValue="false" />
 
+        <!-- qs tile vertical layout-->
         <com.sakura.support.preferences.SystemSettingSwitchPreference
             android:key="qs_tile_vertical_layout"
             android:title="@string/qs_tile_layout_title"
             android:summary="@string/qs_tile_layout_summary"
             android:defaultValue="false" />
 
+        <!-- qs layout columns-->
         <com.sakura.support.preferences.SystemSettingSeekBarPreference
             android:key="qs_layout_columns"
             android:title="@string/qs_columns_portrait_title"
@@ -127,6 +131,7 @@
             settings:interval="1"
             android:defaultValue="2" />
 
+        <!-- qs layout landscape coloumns-->
         <com.sakura.support.preferences.SystemSettingSeekBarPreference
             android:key="qs_layout_columns_landscape"
             android:title="@string/qs_columns_landscape_title"
@@ -134,6 +139,24 @@
             settings:min="2"
             settings:interval="1"
             android:defaultValue="4" />
+
+        <!-- qs rows-->
+        <com.sakura.support.preferences.SystemSettingSeekBarPreference
+            android:key="qqs_layout_rows"
+            android:title="@string/qqs_rows_portrait_title"
+            android:max="3"
+            settings:min="1"
+            settings:interval="1"
+            android:defaultValue="2" />
+
+        <!-- qs rows landscape-->
+        <com.sakura.support.preferences.SystemSettingSeekBarPreference
+            android:key="qqs_layout_rows_landscape"
+            android:title="@string/qqs_rows_landscape_title"
+            android:max="3"
+            settings:min="1"
+            settings:interval="1"
+            android:defaultValue="2" />
 
     </PreferenceCategory>
 </PreferenceScreen>

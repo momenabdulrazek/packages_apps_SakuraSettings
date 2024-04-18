@@ -200,4 +200,7 @@
   <!-- Bluetooth status -->
   <string name="bluetooth_battery_title">Bluetooth battery status</string>
   <string name="bluetooth_battery_summary">Display battery status for the connected bluetooth device, if available</string>
+  <!--qs rows settings-->
+  <string name="qqs_rows_portrait_title">Quick QS Rows (portrait)</string>
+  <string name="qqs_rows_landscape_title">Quick QS Rows (landscape)</string>
 </resources>
