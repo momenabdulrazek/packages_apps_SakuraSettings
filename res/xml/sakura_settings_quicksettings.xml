@@ -22,26 +22,31 @@
 
     <!-- qs tile label size -->
     <com.sakura.support.preferences.SystemSettingSeekBarPreference
-            android:key="qs_tile_label_size"
-            android:title="@string/qs_tile_label_size_title"
-            android:max="15"
-            settings:min="10"
-            settings:interval="1"
-            settings:units="sp"
-            android:defaultValue="14" />
+        android:key="qs_tile_label_size"
+        android:title="@string/qs_tile_label_size_title"
+        android:max="15"
+        settings:min="10"
+        settings:interval="1"
+        settings:units="sp"
+        android:defaultValue="14" />
 
     <!-- clear all button style -->
     <com.sakura.support.preferences.SystemSettingSwitchPreference
-            android:key="notification_material_dismiss"
-            android:title="@string/notification_material_dismiss_title"
-            android:summary="@string/notification_material_dismiss_summary"
-            android:defaultValue="false" />
+        android:key="notification_material_dismiss"
+        android:title="@string/notification_material_dismiss_title"
+        android:summary="@string/notification_material_dismiss_summary"
+        android:defaultValue="false" />
 
     <!-- QS data usuage -->
     <com.sakura.support.preferences.SystemSettingSwitchPreference
-            android:key="qs_show_data_usage"
-            android:title="@string/qs_footer_datausage_title"
-            android:summary="@string/qs_footer_datausage_summary" />
+        android:key="qs_show_data_usage"
+        android:title="@string/qs_footer_datausage_title"
+        android:summary="@string/qs_footer_datausage_summary" />
+
+    <com.sakura.support.preferences.SystemSettingSwitchPreference
+        android:key="qs_brightness_slider_haptic"
+        android:title="@string/qs_brightness_slider_haptic_title"
+        android:summary="@string/qs_brightness_slider_haptic_summary"/>
 
     <!-- Custom headers -->
     <PreferenceCategory
