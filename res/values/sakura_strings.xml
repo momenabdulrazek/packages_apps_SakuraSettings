@@ -220,4 +220,9 @@
   <!-- Show clipboard overlay -->
   <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
   <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+  <!-- Units -->
+  <string name="unit_seconds">seconds</string>
+  <string name="unit_milliseconds">milliseconds</string>
+  <string name="unit_pixels" translatable="false">dp</string>
+  <string name="unit_hz" translatable="false">hz</string>
 </resources>
