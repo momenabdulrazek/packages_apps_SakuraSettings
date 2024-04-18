@@ -20,11 +20,17 @@
     android:title="@string/misc_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <!-- Three-fingers-swipe to screenshot -->
-    <com.sakura.support.preferences.SystemSettingSwitchPreference
-        android:key="three_finger_gesture"
-        android:title="@string/three_finger_gesture"
-        android:summary="@string/three_finger_gesture_summary"
-        android:defaultValue="false" />
+     <!-- Three-fingers-swipe to screenshot -->
+     <com.sakura.support.preferences.SystemSettingSwitchPreference
+         android:key="three_finger_gesture"
+         android:title="@string/three_finger_gesture"
+         android:summary="@string/three_finger_gesture_summary"
+         android:defaultValue="false" />   
 
+     <!-- wifi standard icon feature-->  
+     <com.sakura.support.preferences.SystemSettingSwitchPreference
+         android:key="wifi_standard_icon"
+         android:title="@string/wifi_standard_icon_title"
+         android:summary="@string/wifi_standard_icon_summary"
+         android:defaultValue="false"/>
 </PreferenceScreen>

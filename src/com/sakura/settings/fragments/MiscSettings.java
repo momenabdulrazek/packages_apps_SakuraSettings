@@ -67,6 +67,8 @@ public class MiscSettings extends SettingsPreferenceFragment implements
         ContentResolver resolver = mContext.getContentResolver();
         Settings.System.putIntForUser(resolver,
                 Settings.System.THREE_FINGER_GESTURE, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.WIFI_STANDARD_ICON, 0, UserHandle.USER_CURRENT);
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
