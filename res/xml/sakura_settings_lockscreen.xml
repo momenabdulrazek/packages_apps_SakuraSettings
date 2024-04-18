@@ -35,9 +35,16 @@
          android:defaultValue="true" />
 
      <!-- hide power menu on lockscreen-->
-     <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+     <com.sakura.support.preferences.SystemSettingSwitchPreference
          android:key="lockscreen_enable_power_menu"
          android:title="@string/lockscreen_enable_power_menu_title"
          android:summary="@string/lockscreen_enable_power_menu_summary"
-         android:defaultValue="true" />     
+         android:defaultValue="true" />  
+
+     <!-- disable ripple effect on unlock-->
+     <com.sakura.support.preferences.SystemSettingSwitchPreference
+         android:key="enable_ripple_effect"
+         android:title="@string/enable_fingerprint_ripple_effect_title"
+         android:summary="@string/enable_fingerprint_ripple_effect_summary"
+         android:defaultValue="true" />   
 </PreferenceScreen>
