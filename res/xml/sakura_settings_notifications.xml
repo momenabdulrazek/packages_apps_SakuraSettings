@@ -20,6 +20,13 @@
     android:title="@string/notifications_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+     <!-- Show clipboard overlay -->
+     <com.sakura.support.preferences.SecureSettingSwitchPreference
+         android:key="show_clipboard_overlay"
+         android:title="@string/show_clipboard_overlay_title"
+         android:summary="@string/show_clipboard_overlay_summary"
+         android:defaultValue="true"/>
+
      <!-- headsup toggle-->
      <com.sakura.support.preferences.GlobalSettingSwitchPreference
          android:key="heads_up_notifications_enabled"
