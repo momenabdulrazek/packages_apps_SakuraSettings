@@ -64,16 +64,16 @@
 	    <com.sakura.settings.preferences.CardviewPreference
             android:key="gesture_settings"
             android:title="@string/aosp_gesture_title"
-            android:icon="@drawable/ic_settings_gestures"
             android:summary="@string/aosp_gesture_summary"        
+            android:icon="@drawable/ic_settings_gestures"
             android:fragment="com.android.settings.gestures.GestureSettings" />
 
         <!-- Quick Settings panel -->
         <com.sakura.settings.preferences.CardviewPreference
             android:key="quicksettings_category"
             android:title="@string/quicksettings_title"
+	        android:summary="@string/sakura_quicksettings_summary_title"
             android:fragment="com.sakura.settings.fragments.QuickSettings"
-	        android:summary="@string/sakura_quicksettings_summary"
             android:icon="@drawable/ic_settings_quicksettings"/>
 
         <!-- Lock Screen -->
