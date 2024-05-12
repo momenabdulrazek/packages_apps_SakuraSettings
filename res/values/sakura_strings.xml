@@ -120,8 +120,11 @@
   <string name="lockscreen_doubletap_sleep_summary">Double-tap on the lock screen to put device asleep</string> 
   <!-- AOSP Gestures -->
   <string name="aosp_gesture_title">Gestures</string>
-  <string name="aosp_gesture_summary">gestures settings and toggles</string>  
-    <!-- Custom headers -->
+  <string name="aosp_gesture_summary">gestures settings and toggles</string>
+  <!-- QS Bluetooth auto on -->
+  <string name="qs_bt_auto_on_title">Automatic Bluetooth on</string>
+  <string name="qs_bt_auto_on_summary">Always turn on Bluetooth when pressing the Bluetooth QS tile</string>
+  <!-- Custom headers -->
   <string name="notification_title">Notification panel</string>
   <string name="status_bar_custom_header_title">Enable</string>
   <string name="daylight_header_pack_title">Header image collection</string>
