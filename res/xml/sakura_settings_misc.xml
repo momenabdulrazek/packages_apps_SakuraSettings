@@ -102,4 +102,11 @@
         android:title="@string/theme_customization_icon_shape_title"
         android:summary="@string/theme_customization_icon_shape_summary"
         android:fragment="com.sakura.settings.fragments.ui.IconShapes"/>
+
+    <Preference
+    	android:key="hide_developer_status_settings"
+        android:title="@string/hide_developer_status_title"
+        android:summary="@string/hide_developer_status_summary"
+        android:fragment="com.android.settings.security.HideDeveloperStatusSettings"
+        settings:controller="com.android.settings.security.HideDeveloperStatusPreferenceController" />
 </PreferenceScreen>
