@@ -41,6 +41,10 @@
   <string name="dev_4">ArunTeltia</string>
   <string name="dev_4_git" translatable="false">ArunTeltia</string>
   <string name="dev4_description">Web Developer</string>  
+  <!-- The Noob -->
+  <string name="dev_5">Anoosragh</string>
+  <string name="dev_5_git" translatable="false">anoosragh69</string>
+  <string name="dev5_description">Core Team</string>  
   <!-- Categories -->
   <string name="statusbar_title">Status Bar</string>
   <string name="gestures_title">Gestures</string>

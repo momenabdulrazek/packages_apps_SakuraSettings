@@ -68,6 +68,7 @@ public class SakuraDevsInfoFragment extends SettingsPreferenceFragment {
 		getGithubIcon(R.string.dev_2_git, findPreference("dev2"));
 		getGithubIcon(R.string.dev_3_git, findPreference("dev3"));
 		getGithubIcon(R.string.dev_4_git, findPreference("dev4"));
+        getGithubIcon(R.string.dev_5_git, findPreference("dev5"));
     }
     
     public void getGithubIcon(int usernameResId, Preference preference) {
