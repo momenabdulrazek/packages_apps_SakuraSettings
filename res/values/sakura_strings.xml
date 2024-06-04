@@ -227,6 +227,12 @@
   <!-- Show clipboard overlay -->
   <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
   <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+  <!-- Signal icons -->
+  <string name="theme_customization_signal_icon_title">Signal icon style</string>
+  <string name="theme_customization_signal_icon_summary">Set custom signal icon style</string>
+  <!-- Wifi icons -->
+  <string name="theme_customization_wifi_icon_title">WiFi icon style</string>
+  <string name="theme_customization_wifi_icon_summary">Set custom wifi icon style</string>
   <!-- Units -->
   <string name="unit_seconds">seconds</string>
   <string name="unit_milliseconds">milliseconds</string>
