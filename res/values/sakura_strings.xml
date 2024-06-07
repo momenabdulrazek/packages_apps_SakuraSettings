@@ -44,7 +44,48 @@
   <!-- The Noob -->
   <string name="dev_5">Anoosragh</string>
   <string name="dev_5_git" translatable="false">anoosragh69</string>
-  <string name="dev5_description">Core Team</string>  
+  <string name="dev5_description">Core Team</string>
+
+  <!-- Donators info -->
+  <string name="sakura_donator_about_info">About Donators</string>
+  <string name="sakura_donator_about_info_summary_title">About Sponsor / Contributors</string>
+  <string name="sakura_donator_about_info_summary">Special thanks to all our Donators / Contributors for supporting our project and taking it a step further.</string>
+
+  <string name="donator_header1">Server Sponsor</string>
+  <string name="donator_1">Kiam</string>
+  <string name="donator_1_git" translatable="false">kiam001</string>
+
+  <!-- old donators -->
+  <string name="donator_header2">Donators / Contributors</string>
+  <string name="donator_2">Michal Bartošek</string>
+  <string name="donator_2_git" translatable="false">ProjectSakura</string>
+
+  <string name="donator_3">MissingNerd</string>
+  <string name="donator_3_git" translatable="false">ProjectSakura</string>
+
+  <string name="donator_4">Evan Krimpen</string>
+  <string name="donator_4_git" translatable="false">ProjectSakura</string>
+
+  <string name="donator_5">Mircea Nicolau</string>
+  <string name="donator_5_git" translatable="false">ProjectSakura</string>
+
+  <!-- Nothing phone (1) Donators -->
+  <string name="donator_header3">Donators assisted in crowdfunding a mobile device to kickout our project</string>
+  <string name="donator_6">Jon West</string>
+  <string name="donator_6_git" translatable="false">ProjectSakura</string>
+
+  <string name="donator_7">Huy Minh Bùi</string>
+  <string name="donator_7_git" translatable="false">ProjectSakura</string>
+
+  <string name="donator_8">Edward</string>
+  <string name="donator_8_git" translatable="false">ProjectSakura</string>
+
+  <string name="donator_9">ArmSM</string>
+  <string name="donator_9_git" translatable="false">ArmSM</string>
+
+  <string name="donator_10">İlhan</string>
+  <string name="donator_10_git" translatable="false">ProjectSakura</string>
+
   <!-- Categories -->
   <string name="statusbar_title">Status Bar</string>
   <string name="gestures_title">Gestures</string>
