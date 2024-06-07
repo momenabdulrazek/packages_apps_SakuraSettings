@@ -44,7 +44,11 @@
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/Kiam001" />
         </Preference>
+</PreferenceCategory>
 
+<PreferenceCategory
+            android:key="sakura_donator_2"
+            android:title="@string/donator_header2">
         <Preference
             android:key="donator2"
             android:title="@string/donator_2"
@@ -71,8 +75,11 @@
             android:title="@string/donator_5"
             android:icon="@drawable/ic_code" >
         </Preference>
-
+</PreferenceCategory>
         <!-- Nothing Phone (1) Donators -->
+<PreferenceCategory
+            android:key="sakura_donator_3"
+            android:title="@string/donator_header3">
         <Preference
             android:key="donator6"
             android:title="@string/donator_6"
