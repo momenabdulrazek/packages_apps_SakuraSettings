@@ -198,5 +198,13 @@
             android:summary="@string/theme_customization_wifi_icon_summary"
             android:fragment="com.sakura.settings.fragments.ui.WifiIcons"/>
 
+        <!-- Icon pack -->
+        <Preference
+            android:key="android.theme.customization.icon_pack"
+            android:icon="@drawable/ic_drawing"
+            android:title="@string/theme_customization_icon_pack_title"
+            android:summary="@string/theme_customization_icon_pack_summary"
+            android:fragment="com.sakura.settings.fragments.ui.StatusbarIcons"/>
+
     </PreferenceCategory>
 </PreferenceScreen>
