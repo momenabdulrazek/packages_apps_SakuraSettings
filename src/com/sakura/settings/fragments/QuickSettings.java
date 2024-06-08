@@ -66,6 +66,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private static final String KEY_NOTIFICATION_CLEAR_STYLE = "notification_material_dismiss_style";
     private static final String KEY_NOTIFICATION_CLEAR_BGSTYLE = "notification_material_dismiss_bgstyle";
     private static final String KEY_QS_PANEL_STYLE  = "qs_panel_style";
+    private static final String KEY_QS_UI_STYLE  = "qs_tile_ui_style";
     private static final int REQUEST_PICK_IMAGE = 0;
 
     private Preference mHeaderBrowse;
@@ -77,12 +78,19 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private Preference mFileHeader;
     private String mFileHeaderProvider;
     private ListPreference mQsPanelStyle;
+    private ListPreference mQsUI;
+
+    private static ThemeUtils mThemeUtils;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.sakura_settings_quicksettings);
-        ContentResolver resolver = getActivity().getContentResolver();
+
+        mThemeUtils = new ThemeUtils(getActivity());
+
+        final Context mContext = getActivity().getApplicationContext();
+        final ContentResolver resolver = mContext.getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
         mDaylightHeaderProvider = getResources().getString(R.string.daylight_header_provider);
@@ -115,6 +123,15 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         mHeaderProvider.setOnPreferenceChangeListener(this);
 
         mFileHeader = findPreference(FILE_HEADER_SELECT);
+
+        String isA11Style = Integer.toString(Settings.System.getIntForUser(resolver,
+                Settings.System.QS_TILE_UI_STYLE , 0, UserHandle.USER_CURRENT));
+
+        mQsUI = (ListPreference) findPreference(KEY_QS_UI_STYLE);
+        int index = mQsUI.findIndexOfValue(isA11Style);
+        mQsUI.setValue(isA11Style);
+        mQsUI.setSummary(mQsUI.getEntries()[index]);
+        mQsUI.setOnPreferenceChangeListener(this);
 
         String qsPanelStyle = Integer.toString(Settings.System.getIntForUser(resolver,
                 Settings.System.QS_PANEL_STYLE , 0, UserHandle.USER_CURRENT));
@@ -158,6 +175,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+
         if (preference == mDaylightHeaderPack) {
             String value = (String) newValue;
             Settings.System.putString(getContentResolver(),
@@ -187,6 +206,15 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             Settings.System.putIntForUser(resolver,
                     Settings.System.QS_PANEL_STYLE, value, UserHandle.USER_CURRENT);
             updateQsPanelStyle(getActivity());
+            return true;
+        } else if (preference == mQsUI) {
+            int value = Integer.parseInt((String) newValue);
+            int index = mQsUI.findIndexOfValue((String) newValue);
+            mQsUI.setValue((String) newValue);
+            mQsUI.setSummary(mQsUI.getEntries()[index]);
+            Settings.System.putIntForUser(resolver,
+                    Settings.System.QS_TILE_UI_STYLE, value, UserHandle.USER_CURRENT);
+            updateQsStyle(getActivity());
             return true;
         }
          return true;
@@ -306,13 +334,38 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.System.QQS_LAYOUT_ROWS_LANDSCAPE, 2, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_PANEL_STYLE, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.QS_TILE_UI_STYLE, 0, UserHandle.USER_CURRENT);
         LineageSettings.Secure.putIntForUser(resolver,
                 LineageSettings.Secure.QS_SHOW_BRIGHTNESS_SLIDER, 1, UserHandle.USER_CURRENT);
         LineageSettings.Secure.putIntForUser(resolver,
                 LineageSettings.Secure.QS_BRIGHTNESS_SLIDER_POSITION, 0, UserHandle.USER_CURRENT);
         LineageSettings.Secure.putIntForUser(resolver,
                 LineageSettings.Secure.QS_SHOW_AUTO_BRIGHTNESS, 1, UserHandle.USER_CURRENT);
+        updateQsStyle(mContext);
         updateQsPanelStyle(mContext);
+    }
+
+    private static void updateQsStyle(Context context) {
+        ContentResolver resolver = context.getContentResolver();
+
+        boolean isA11Style = Settings.System.getIntForUser(resolver,
+                Settings.System.QS_TILE_UI_STYLE , 0, UserHandle.USER_CURRENT) != 0;
+
+	    String qsUIStyleCategory = "android.theme.customization.qs_ui";
+        String overlayThemeTarget  = "com.android.systemui";
+        String overlayThemePackage  = "com.android.system.qs.ui.A11";
+
+        if (mThemeUtils == null) {
+            mThemeUtils = new ThemeUtils(context);
+        }
+
+	    // reset all overlays before applying
+        mThemeUtils.setOverlayEnabled(qsUIStyleCategory, overlayThemeTarget, overlayThemeTarget);
+
+	    if (isA11Style) {
+            mThemeUtils.setOverlayEnabled(qsUIStyleCategory, overlayThemePackage, overlayThemeTarget);
+	    }
     }
 
     private static void updateQsPanelStyle(Context context) {

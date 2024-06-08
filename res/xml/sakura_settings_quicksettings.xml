@@ -190,6 +190,14 @@
             android:entryValues="@array/qs_panel_style_values"
             android:defaultValue="0" />
 
+        <ListPreference
+            android:key="qs_tile_ui_style"
+            android:icon="@drawable/ic_shapes"
+            android:title="@string/qs_tile_ui_style_title"
+            android:entries="@array/qs_tile_ui_style_entries"
+            android:entryValues="@array/qs_tile_ui_style_values"
+            android:defaultValue="0" />
+
         <!-- Signal icon style -->
         <Preference
             android:key="android.theme.customization.signal_icon"
