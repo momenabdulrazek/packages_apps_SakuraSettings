@@ -303,4 +303,8 @@
   <string name="hide_developer_status_summary">Hide developer status from apps</string>
   <string name="search">Search</string>
   <string name="search_apps">Search apps</string>
+  <!-- QS Panel Style -->
+  <string name="qs_panel_style_title">QS panel style</string>
+  <string name="qs_panel_style_outline">Outline</string>
+  <string name="qs_panel_style_two_tone">Two-Tone accent</string>
 </resources>

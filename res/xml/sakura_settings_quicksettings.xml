@@ -182,6 +182,14 @@
             android:entryValues="@array/qs_brightness_slider_position_values"
             android:defaultValue="0" />
 
+        <ListPreference
+            android:key="qs_panel_style"
+            android:icon="@drawable/ic_color_bucket"
+            android:title="@string/qs_panel_style_title"
+            android:entries="@array/qs_panel_style_entries"
+            android:entryValues="@array/qs_panel_style_values"
+            android:defaultValue="0" />
+
         <!-- Signal icon style -->
         <Preference
             android:key="android.theme.customization.signal_icon"
