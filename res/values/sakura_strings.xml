@@ -298,4 +298,9 @@
   <string name="unit_milliseconds">milliseconds</string>
   <string name="unit_pixels" translatable="false">dp</string>
   <string name="unit_hz" translatable="false">hz</string>
+  <!-- Hide developer status -->
+  <string name="hide_developer_status_title">Hide developer status</string>
+  <string name="hide_developer_status_summary">Hide developer status from apps</string>
+  <string name="search">Search</string>
+  <string name="search_apps">Search apps</string>
 </resources>
