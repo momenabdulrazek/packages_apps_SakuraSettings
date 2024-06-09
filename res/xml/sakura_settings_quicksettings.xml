@@ -168,7 +168,6 @@
         <!-- Brightness slider -->
         <lineageos.preference.LineageSecureSettingListPreference
             android:key="qs_show_brightness_slider"
-            android:icon="@drawable/ic_brightness"
             android:title="@string/qs_show_brightness_slider_title"
             android:entries="@array/qs_show_brightness_slider_entries"
             android:entryValues="@array/qs_show_brightness_slider_values"
@@ -176,7 +175,6 @@
 
         <lineageos.preference.LineageSecureSettingListPreference
             android:key="qs_brightness_slider_position"
-            android:icon="@drawable/ic_brightness"
             android:title="@string/qs_brightness_slider_position_title"
             android:entries="@array/qs_brightness_slider_position_entries"
             android:entryValues="@array/qs_brightness_slider_position_values"
@@ -184,7 +182,6 @@
 
         <ListPreference
             android:key="qs_panel_style"
-            android:icon="@drawable/ic_color_bucket"
             android:title="@string/qs_panel_style_title"
             android:entries="@array/qs_panel_style_entries"
             android:entryValues="@array/qs_panel_style_values"
@@ -192,7 +189,6 @@
 
         <ListPreference
             android:key="qs_tile_ui_style"
-            android:icon="@drawable/ic_shapes"
             android:title="@string/qs_tile_ui_style_title"
             android:entries="@array/qs_tile_ui_style_entries"
             android:entryValues="@array/qs_tile_ui_style_values"
@@ -201,7 +197,6 @@
         <!-- Signal icon style -->
         <Preference
             android:key="android.theme.customization.signal_icon"
-            android:icon="@drawable/ic_signal"
             android:title="@string/theme_customization_signal_icon_title"
             android:summary="@string/theme_customization_signal_icon_summary"
             android:fragment="com.sakura.settings.fragments.ui.SignalIcons"/>
@@ -209,7 +204,6 @@
         <!-- Wifi icon style -->
         <Preference
             android:key="android.theme.customization.wifi_icon"
-            android:icon="@drawable/ic_wifi"
             android:title="@string/theme_customization_wifi_icon_title"
             android:summary="@string/theme_customization_wifi_icon_summary"
             android:fragment="com.sakura.settings.fragments.ui.WifiIcons"/>
@@ -217,7 +211,6 @@
         <!-- Icon pack -->
         <Preference
             android:key="android.theme.customization.icon_pack"
-            android:icon="@drawable/ic_drawing"
             android:title="@string/theme_customization_icon_pack_title"
             android:summary="@string/theme_customization_icon_pack_summary"
             android:fragment="com.sakura.settings.fragments.ui.StatusbarIcons"/>

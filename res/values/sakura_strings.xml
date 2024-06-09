@@ -70,7 +70,7 @@
   <string name="donator_5_git" translatable="false">ProjectSakura</string>
 
   <!-- Nothing phone (1) Donators -->
-  <string name="donator_header3">Donators assisted in crowdfunding a mobile device to kickout our project</string>
+  <string name="donator_header3">Donators assisted in crowdfunding a device</string>
   <string name="donator_6">Jon West</string>
   <string name="donator_6_git" translatable="false">ProjectSakura</string>
 
