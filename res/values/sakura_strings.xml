@@ -72,10 +72,10 @@
   <!-- Nothing phone (1) Donators -->
   <string name="donator_header3">Donators assisted in crowdfunding a device</string>
   <string name="donator_6">Jon West</string>
-  <string name="donator_6_git" translatable="false">ProjectSakura</string>
+  <string name="donator_6_git" translatable="false">electrikjesus</string>
 
   <string name="donator_7">Huy Minh Bùi</string>
-  <string name="donator_7_git" translatable="false">ProjectSakura</string>
+  <string name="donator_7_git" translatable="false">hmtheboy154</string>
 
   <string name="donator_8">Edward</string>
   <string name="donator_8_git" translatable="false">ProjectSakura</string>
@@ -84,7 +84,7 @@
   <string name="donator_9_git" translatable="false">ArmSM</string>
 
   <string name="donator_10">İlhan</string>
-  <string name="donator_10_git" translatable="false">ProjectSakura</string>
+  <string name="donator_10_git" translatable="false">ilhan-athn7</string>
 
   <!-- Categories -->
   <string name="statusbar_title">Status Bar</string>
