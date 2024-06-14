@@ -35,6 +35,17 @@
          android:summary="@string/notification_heads_up_summary"
          android:defaultValue="true" />
 
+     <!-- headsup timeout-->
+     <com.sakura.support.preferences.SystemSettingSeekBarPreference
+         android:key="heads_up_timeout"
+         android:title="@string/notification_heads_up_timeout_title"
+         android:summary="@string/notification_heads_up_timeout_summary"
+         settings:units="@string/unit_seconds"
+         android:defaultValue="5"
+         settings:min="1"
+         android:max="10"
+         android:dependency="heads_up_notifications_enabled" />
+
      <!-- less boring headsup-->
      <com.sakura.support.preferences.SystemSettingSwitchPreference
          android:key="less_boring_heads_up"
@@ -54,16 +65,6 @@
      <com.sakura.support.preferences.SystemSettingSwitchPreference
         android:key="notification_guts_kill_app_button"
         android:title="@string/notification_guts_kill_app_button_title"
-        android:summary="@string/notification_guts_kill_app_button_summary" />
-
-     <!-- headsup timeout-->
-     <com.sakura.support.preferences.SystemSettingSeekBarPreference
-         android:key="heads_up_timeout"
-         android:title="@string/notification_heads_up_timeout_title"
-         android:summary="@string/notification_heads_up_timeout_summary"
-         settings:units="@string/unit_seconds"
-         android:defaultValue="5"
-         settings:min="1"
-         android:max="10"
-         android:dependency="heads_up_notifications_enabled" />
+        android:summary="@string/notification_guts_kill_app_button_summary" 
+        android:defaultValue="false" />
 </PreferenceScreen>
