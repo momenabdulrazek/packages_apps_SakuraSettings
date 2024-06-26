@@ -20,32 +20,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/sakura_settings_title" >
-	
-    <PreferenceCategory
-            android:key="about rom"
-            android:title="About ROM" >
-
-		<!-- About Devs -->
-        <Preference
-            android:key="dev_info"
-            android:title="@string/sakura_about_info"
-            android:summary="@string/sakura_about_info_summary_title"
-            android:fragment="com.android.settings.custom.SakuraDevsInfoFragment"/>
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
-            android:key="about donators"
-            android:title="About Donators" >
-
-		<!-- About Donators -->
-        <Preference
-            android:key="donators_info"
-            android:title="@string/sakura_donator_about_info"
-            android:summary="@string/sakura_donator_about_info_summary_title"
-            android:fragment="com.android.settings.custom.SakuraDonatorsInfoFragment"/>
-
-    </PreferenceCategory>
 
     <PreferenceCategory
             android:key="features"
@@ -112,6 +86,32 @@
 	        android:summary="@string/sakura_misc_summary_title"
             android:fragment="com.sakura.settings.fragments.MiscSettings"
             android:icon="@drawable/ic_settings_misc"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="about rom"
+            android:title="About ROM" >
+
+		<!-- About Devs -->
+        <Preference
+            android:key="dev_info"
+            android:title="@string/sakura_about_info"
+            android:summary="@string/sakura_about_info_summary_title"
+            android:fragment="com.android.settings.custom.SakuraDevsInfoFragment"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="about donators"
+            android:title="About Donators" >
+
+		<!-- About Donators -->
+        <Preference
+            android:key="donators_info"
+            android:title="@string/sakura_donator_about_info"
+            android:summary="@string/sakura_donator_about_info_summary_title"
+            android:fragment="com.android.settings.custom.SakuraDonatorsInfoFragment"/>
 
     </PreferenceCategory>
 </PreferenceScreen>
