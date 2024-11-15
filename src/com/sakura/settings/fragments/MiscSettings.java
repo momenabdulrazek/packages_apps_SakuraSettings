@@ -20,6 +20,7 @@ import android.content.Context;
 import android.content.ContentResolver;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.SystemProperties;
 import android.os.UserHandle;
 import androidx.preference.SwitchPreference;
 import androidx.preference.ListPreference;
@@ -39,6 +40,10 @@ import com.android.settings.R;
 
 public class MiscSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
+
+    private static final String SYS_GAMES_SPOOF = "persist.sys.pixelprops.games";
+    private static final String SYS_PHOTOS_SPOOF = "persist.sys.pixelprops.gphotos";
+    private static final String SYS_NETFLIX_SPOOF = "persist.sys.pixelprops.netflix";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -83,6 +88,9 @@ public class MiscSettings extends SettingsPreferenceFragment implements
                 Settings.Secure.ENABLE_PROJECTION_PRIVACY_INDICATOR, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.BLUETOOTH_SHOW_BATTERY, 1, UserHandle.USER_CURRENT);
+        SystemProperties.set(SYS_GAMES_SPOOF, "false");
+        SystemProperties.set(SYS_PHOTOS_SPOOF, "true");
+        SystemProperties.set(SYS_NETFLIX_SPOOF, "false");
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
