@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018-24 The Superior OS Project
+     Copyright (C) 2020-24 Project Sakura
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/quicksettings_title"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <!-- clear all button style -->
+    <com.sakura.support.preferences.SystemSettingSwitchPreference
+        android:key="notification_material_dismiss"
+        android:title="@string/notification_material_dismiss_title"
+        android:summary="@string/notification_material_dismiss_summary"
+        android:defaultValue="false" />
+
+    <!-- QS Bluetooth auto on -->
+    <com.sakura.support.preferences.SystemSettingSwitchPreference
+        android:key="qs_bt_auto_on"
+        android:title="@string/qs_bt_auto_on_title"
+        android:summary="@string/qs_bt_auto_on_summary"
+        android:defaultValue="true" />
+
+    <!-- QS data usage -->
+    <com.sakura.support.preferences.SystemSettingSwitchPreference
+        android:key="qs_show_data_usage"
+        android:title="@string/qs_footer_datausage_title"
+        android:summary="@string/qs_footer_datausage_summary" 
+        android:defaultValue="false" />
+
+    <com.sakura.support.preferences.SystemSettingSwitchPreference
+        android:key="qs_brightness_slider_haptic"
+        android:title="@string/qs_brightness_slider_haptic_title"
+        android:summary="@string/qs_brightness_slider_haptic_summary"
+        android:defaultValue="false" />
+
+    <!-- Custom headers -->
+    <PreferenceCategory
+        android:key="category_custom_header"
+        android:title="@string/custom_header_title">
+
+        <com.sakura.support.preferences.SystemSettingSwitchPreference
+            android:key="status_bar_custom_header"
+            android:title="@string/status_bar_custom_header_title"
+            android:defaultValue="false" />
+
+        <ListPreference
+            android:key="custom_header_provider"
+            android:title="@string/custom_header_provider_title"
+            android:persistent="false"
+            android:entries="@array/custom_header_provider_entries"
+            android:entryValues="@array/custom_header_provider_values"
+            android:dependency="status_bar_custom_header" />
+
+        <ListPreference
+            android:key="daylight_header_pack"
+            android:title="@string/daylight_header_pack_title"
+            android:persistent="false"
+            android:dependency="status_bar_custom_header" />
+
+        <Preference
+            android:key="custom_header_browse"
+            android:title="@string/custom_header_pick_title"
+            android:summary="@string/custom_header_pick_summary"
+            android:persistent="false"
+            android:dependency="status_bar_custom_header" >
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="org.omnirom.omnistyle"
+                    android:targetClass="org.omnirom.omnistyle.PickHeaderActivity" />
+        </Preference>
+
+        <Preference
+            android:key="file_header_select"
+            android:title="@string/file_header_select_title"
+            android:summary="@string/file_header_select_summary"
+            android:persistent="false"
+            android:dependency="status_bar_custom_header" >
+        </Preference>
+
+        <com.sakura.support.preferences.CustomSeekBarPreference
+            android:key="status_bar_custom_header_shadow"
+            android:title="@string/status_bar_custom_header_shadow_title"
+            android:summary="@string/status_bar_custom_header_shadow_summary"
+            android:max="100"
+            settings:min="0"
+            settings:unitsRight="@string/unit_percent"
+            android:persistent="false"
+            android:dependency="status_bar_custom_header" />
+
+    </PreferenceCategory>
+
+    <!-- QS layout category-->
+    <PreferenceCategory
+        android:key="qs_layout_category"
+        android:title="@string/qs_layout_category_title">
+
+        <!-- qs tile label size -->
+        <com.sakura.support.preferences.SystemSettingSeekBarPreference
+            android:key="qs_tile_label_size"
+            android:title="@string/qs_tile_label_size_title"
+            android:max="15"
+            settings:min="10"
+            settings:interval="1"
+            settings:units="sp"
+            android:defaultValue="14" />
+
+        <!-- qs tile label hide-->    
+        <com.sakura.support.preferences.SystemSettingSwitchPreference
+            android:key="qs_tile_label_hide"
+            android:title="@string/qs_tile_label_hide_title"
+            android:summary="@string/qs_tile_label_hide_summary"
+            android:defaultValue="false" />
+
+        <!-- qs tile vertical layout-->
+        <com.sakura.support.preferences.SystemSettingSwitchPreference
+            android:key="qs_tile_vertical_layout"
+            android:title="@string/qs_tile_layout_title"
+            android:summary="@string/qs_tile_layout_summary"
+            android:defaultValue="false" />
+
+        <!-- qs layout columns-->
+        <com.sakura.support.preferences.SystemSettingSeekBarPreference
+            android:key="qs_layout_columns"
+            android:title="@string/qs_columns_portrait_title"
+            android:max="5"
+            settings:min="2"
+            settings:interval="1"
+            android:defaultValue="2" />
+
+        <!-- qs layout landscape coloumns-->
+        <com.sakura.support.preferences.SystemSettingSeekBarPreference
+            android:key="qs_layout_columns_landscape"
+            android:title="@string/qs_columns_landscape_title"
+            android:max="6"
+            settings:min="2"
+            settings:interval="1"
+            android:defaultValue="4" />
+
+        <!-- qs rows-->
+        <com.sakura.support.preferences.SystemSettingSeekBarPreference
+            android:key="qqs_layout_rows"
+            android:title="@string/qqs_rows_portrait_title"
+            android:max="3"
+            settings:min="1"
+            settings:interval="1"
+            android:defaultValue="2" />
+
+        <!-- qs rows landscape-->
+        <com.sakura.support.preferences.SystemSettingSeekBarPreference
+            android:key="qqs_layout_rows_landscape"
+            android:title="@string/qqs_rows_landscape_title"
+            android:max="3"
+            settings:min="1"
+            settings:interval="1"
+            android:defaultValue="2" />
+
+        <!-- Brightness slider -->
+        <lineageos.preference.LineageSecureSettingListPreference
+            android:key="qs_show_brightness_slider"
+            android:title="@string/qs_show_brightness_slider_title"
+            android:entries="@array/qs_show_brightness_slider_entries"
+            android:entryValues="@array/qs_show_brightness_slider_values"
+            android:defaultValue="1" />
+
+        <lineageos.preference.LineageSecureSettingListPreference
+            android:key="qs_brightness_slider_position"
+            android:title="@string/qs_brightness_slider_position_title"
+            android:entries="@array/qs_brightness_slider_position_entries"
+            android:entryValues="@array/qs_brightness_slider_position_values"
+            android:defaultValue="0" />
+
+        <ListPreference
+            android:key="qs_panel_style"
+            android:title="@string/qs_panel_style_title"
+            android:entries="@array/qs_panel_style_entries"
+            android:entryValues="@array/qs_panel_style_values"
+            android:defaultValue="0" />
+
+        <ListPreference
+            android:key="qs_tile_ui_style"
+            android:title="@string/qs_tile_ui_style_title"
+            android:entries="@array/qs_tile_ui_style_entries"
+            android:entryValues="@array/qs_tile_ui_style_values"
+            android:defaultValue="0" />
+
+        <!-- Signal icon style -->
+        <Preference
+            android:key="android.theme.customization.signal_icon"
+            android:title="@string/theme_customization_signal_icon_title"
+            android:summary="@string/theme_customization_signal_icon_summary"
+            android:fragment="com.sakura.settings.fragments.ui.SignalIcons"/>
+
+        <!-- Wifi icon style -->
+        <Preference
+            android:key="android.theme.customization.wifi_icon"
+            android:title="@string/theme_customization_wifi_icon_title"
+            android:summary="@string/theme_customization_wifi_icon_summary"
+            android:fragment="com.sakura.settings.fragments.ui.WifiIcons"/>
+
+        <!-- Icon pack -->
+        <Preference
+            android:key="android.theme.customization.icon_pack"
+            android:title="@string/theme_customization_icon_pack_title"
+            android:summary="@string/theme_customization_icon_pack_summary"
+            android:fragment="com.sakura.settings.fragments.ui.StatusbarIcons"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

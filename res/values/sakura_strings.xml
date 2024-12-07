@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright © 2018-24 The Superior OS Project
+     Copyright (C) 2020-24 Project Sakura
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="sakura_settings_title">Sakura Configs</string>
+  <string name="sakura_dashboard_summary">Feels Like Spring..</string>
+
+  <!-- ROM Info -->
+  <string name="sakura_about_info">About Project</string>
+  <string name="sakura_about_info_summary_title">About Team</string>
+  <string name="sakura_about_info_summary">A customised Lineage OS. Its sole purpose is to provide a platform which is powered by Lineage and is more customisable than Lineage.</string> 
+  <!-- Dev Info -->
+  <string name="devs_header">Family Members</string>
+  <!-- The broken Lord -->
+  <string name="dev_1">Shen</string>
+  <string name="dev_1_git" translatable="false">LordShenron</string>
+  <string name="dev1_description">Founder/Developer</string>
+  <!-- RTX in name but uses a potato PC/laptop -->
+  <string name="dev_2">ReveRTX</string>
+  <string name="dev_2_git" translatable="false">ReveRTX</string>
+  <string name="dev2_description">Core Developer</string>
+  <!-- Motivational Speaker -->
+  <string name="dev_3">ArmSM</string>
+  <string name="dev_3_git" translatable="false">ArmSM</string>
+  <string name="dev3_description">Core Team</string>
+  <string name="dev_4">ArunTeltia</string>
+  <string name="dev_4_git" translatable="false">ArunTeltia</string>
+  <string name="dev4_description">Web Developer</string>  
+  <!-- The Noob -->
+  <string name="dev_5">Anoosragh</string>
+  <string name="dev_5_git" translatable="false">anoosragh69</string>
+  <string name="dev5_description">Core Team</string>
+
+  <!-- Donators info -->
+  <string name="sakura_donator_about_info">About Donators</string>
+  <string name="sakura_donator_about_info_summary_title">About Sponsor / Contributors</string>
+  <string name="sakura_donator_about_info_summary">Special thanks to all our Donators / Contributors for supporting our project and taking it a step further.</string>
+
+  <string name="donator_header1">Server Sponsor</string>
+  <string name="donator_1">Kiam</string>
+  <string name="donator_1_git" translatable="false">kiam001</string>
+
+  <!-- old donators -->
+  <string name="donator_header2">Donators / Contributors</string>
+  <string name="donator_2">Michal Bartošek</string>
+  <string name="donator_2_git" translatable="false">ProjectSakura</string>
+
+  <string name="donator_3">MissingNerd</string>
+  <string name="donator_3_git" translatable="false">ProjectSakura</string>
+
+  <string name="donator_4">Evan Krimpen</string>
+  <string name="donator_4_git" translatable="false">ProjectSakura</string>
+
+  <string name="donator_5">Mircea Nicolau</string>
+  <string name="donator_5_git" translatable="false">ProjectSakura</string>
+
+  <!-- Nothing phone (1) Donators -->
+  <string name="donator_header3">Donators assisted in crowdfunding a device</string>
+  <string name="donator_6">Jon West</string>
+  <string name="donator_6_git" translatable="false">electrikjesus</string>
+
+  <string name="donator_7">Huy Minh Bùi</string>
+  <string name="donator_7_git" translatable="false">hmtheboy154</string>
+
+  <string name="donator_8">Edward</string>
+  <string name="donator_8_git" translatable="false">ProjectSakura</string>
+
+  <string name="donator_9">ArmSM</string>
+  <string name="donator_9_git" translatable="false">ArmSM</string>
+
+  <string name="donator_10">İlhan</string>
+  <string name="donator_10_git" translatable="false">ilhan-athn7</string>
+
+  <!-- Categories -->
+  <string name="statusbar_title">Status Bar</string>
+  <string name="gestures_title">Gestures</string>
+  <string name="sakura_gesture_summary_title">Three finger swipe, layouts and AOSP gestures</string>
+  <string name="lockscreen_title">Lock Screen</string>
+  <string name="sakura_lockscreen_summary_title">Lockscreen charging and secure lockscreen</string>
+  <string name="misc_title">Miscellaneous</string>
+  <string name="sakura_misc_summary_title">Misc options</string>
+  <string name="parts_title">LineageParts</string>
+  <string name="sakura_parts_summary_title">Statusbar, buttons and other lineage settings</string>
+  <string name="quicksettings_title">Quick Settings</string>
+  <string name="sakura_quicksettings_summary_title">Tile title, header images, opacity</string>
+  <string name="interface_title">Interface</string>
+  <string name="sakura_interface_summary_title">Theming, battery bar and network meter</string>
+  <string name="animation_title">Animations</string>
+  <string name="sakura_animation_summary_title">Opening and closing animations</string>
+  <string name="notifications_title">Notifications</string>
+  <string name="sakura_notifications_summary_title">Heads up, horizon lights, vibration options</string>
+  <string name="sakura_updater_summary_title">OTA updates</string>
+  <string name="updater_title">Sakura Updates</string>
+  <string name="buttons_settings">Buttons Settings</string>
+  <string name="buttons_settings_summary">LineageOS buttons settings</string>
+  <string name="statusbar_settings">Statusbar Settings</string>
+  <string name="statusbar_settings_summary">LineageOS statusbar tweaks</string>
+  <string name="button_title">Buttons</string>
+  <string name="powermenu_title">Power Menu</string>
+  <string name="navbar_title">Navigation Bar</string> 
+  <!-- Wifi/Bluetooth auto timeout -->
+  <string name="wifi_timeout">WiFi timeout</string>
+  <string name="wifi_timeout_summary">Do not automatically turn off WiFi</string>
+  <string name="wifi_timeout_summary_auto">WiFi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+  <string name="bluetooth_timeout">Bluetooth timeout</string>
+  <string name="bluetooth_timeout_summary">Do not automatically turn off Bluetooth</string>
+  <string name="bluetooth_timeout_summary_auto">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
+  <string name="custom_timeout_summary_never">Never</string>
+  <string name="custom_timeout_summary_5secs">5 seconds</string>
+  <string name="custom_timeout_summary_10secs">10 seconds</string>
+  <string name="custom_timeout_summary_15secs">15 seconds</string>
+  <string name="custom_timeout_summary_30secs">30 seconds</string>
+  <string name="custom_timeout_summary_1min">1 minute</string>
+  <string name="custom_timeout_summary_2mins">2 minutes</string>
+  <string name="custom_timeout_summary_5mins">5 minutes</string>
+  <string name="custom_timeout_summary_10mins">10 minutes</string>
+  <string name="custom_timeout_summary_20mins">20 minutes</string>
+  <string name="custom_timeout_summary_30mins">30 minutes</string>
+  <string name="custom_timeout_summary_1hour">1 hour</string>
+  <string name="custom_timeout_summary_2hours">2 hours</string>
+  <string name="custom_timeout_summary_4hours">4 hours</string>
+  <string name="custom_timeout_summary_8hours">8 hours</string> 
+  <!-- Gesture navbar length -->
+  <string name="gesture_navbar_length_title">Pill length</string>
+  <string name="short_label">Short</string>
+  <string name="long_label">Long</string> 
+  <!-- Back gesture height -->
+  <string name="back_height_low_label">Full</string>
+  <string name="back_height_high_label">Bottom</string>
+  <string name="back_height_title">Back gesture height</string>
+  <string name="back_height_summary">Screen height valid for back gesture</string>  
+  <!-- Back gesture animation -->
+  <string name="back_gesture_arrow_title">Back gesture animation</string>
+  <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>  
+  <!-- Back gesture haptic -->
+  <string name="back_gesture_haptic_title">Back gesture haptic</string>
+  <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>  
+  <!-- Deep Sleep percentage in device info -->
+  <string name="status_sleep_time">Deep sleep</string>  
+  <!-- Auto pin confirm -->
+  <string name="lock_screen_auto_pin_confirm_summary_custom">Unlock automatically if you input a correct PIN. This is slightly less secure than tapping Enter to confirm.</string>  
+  <!-- Running services - Background processes tab -->
+  <string name="background_processes_settings_title">Background processes</string>  
+  <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+  <string name="screen_time_summary_usage_today">%1$s today</string>  
+  <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] --> 
+  <string name="duration_less_than_one_minute">Less than 1 Minute</string>  
+  <!-- Tap to sleep on status bar -->
+  <string name="lockscreen_doubletap_sleep_title">Tap to sleep</string>
+  <string name="lockscreen_doubletap_sleep_summary">Double-tap on the lock screen to put device asleep</string> 
+  <!-- AOSP Gestures -->
+  <string name="aosp_gesture_title">Gestures</string>
+  <string name="aosp_gesture_summary">Gestures settings and toggles</string>
+  <!-- QS Bluetooth auto on -->
+  <string name="qs_bt_auto_on_title">Automatic Bluetooth on</string>
+  <string name="qs_bt_auto_on_summary">Always turn on Bluetooth when pressing the Bluetooth QS tile</string>
+  <!-- Custom headers -->
+  <string name="notification_title">Notification panel</string>
+  <string name="status_bar_custom_header_title">Enable</string>
+  <string name="daylight_header_pack_title">Header image collection</string>
+  <string name="status_bar_custom_header_shadow_title">Header image shadow</string>
+  <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
+  <string name="unit_percent">\u0025</string>
+  <string name="static_header_provider" translatable="false">static</string>
+  <string name="daylight_header_provider" translatable="false">daylight</string>
+  <string name="static_header_provider_title">Static image</string>
+  <string name="daylight_header_provider_title">Image collection</string>
+  <string name="custom_header_provider_title">Header provider</string>
+  <string name="custom_header_pick_title">Select header image</string>
+  <string name="custom_header_pick_summary">Select a local or remote image</string>
+  <string name="style_enabled_summary">Custom header image is ON</string>
+  <string name="style_disabled_summary">Custom header image is OFF</string>
+  <string name="header_provider_disabled">Disabled</string>
+  <string name="custom_header_title">Custom header image</string>
+  <string name="file_header_select_title">Select local image</string>
+  <string name="file_header_select_summary">Select image from storage</string>
+  <string name="file_header_provider_title">Single image</string>
+  <string name="file_header_provider" translatable="false">file</string>  
+  <!-- QS tiles layout  -->
+  <string name="qs_tile_label_size_title">Label text size</string>
+  <string name="qs_layout_category_title">Tiles layout</string>
+  <string name="qs_tile_label_hide_title">Hide label</string>
+  <string name="qs_tile_label_hide_summary">Only show icon in tile</string>
+  <string name="qs_tile_layout_title">Vertical layout</string>
+  <string name="qs_tile_layout_summary">Show label below icon instead next to icon</string>
+  <string name="qs_columns_portrait_title">Columns (portrait)</string>
+  <string name="qs_columns_landscape_title">Columns (landscape)</string>  
+  <!-- Material dismiss all button for notifications -->
+  <string name="notification_material_dismiss_title">Clear all notification button</string>
+  <string name="notification_material_dismiss_summary">Replace clear all notification text with material style floating button</string>
+  <string name="notification_material_dismiss_style_title">Button style</string>
+  <string name="notification_material_dismiss_bgstyle_title">Button background</string> 
+  <!-- Data usage info in QS footer -->
+  <string name="qs_footer_datausage_title">Data usage</string>
+  <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string> 
+  <!-- Three-fingers-swipe to screenshot -->
+  <string name="three_finger_gesture">Swipe to screenshot</string>
+  <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string> 
+  <!-- Lockscreen battery info indicator -->
+  <string name="lockscreen_battery_info_title">Battery info</string>
+  <string name="lockscreen_battery_info_summary">Display battery info when charging</string>  
+  <!-- Power menu on secure lockscreen -->
+  <string name="lockscreen_enable_power_menu_title">Power menu</string>
+  <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>  
+  <!-- Fingerprint Ripple Effect -->
+  <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+  <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>  
+  <!-- Disable QS -->
+  <string name="disable_qs_title">Hide QS on secure lock screen</string>
+  <string name="disable_qs_summary">Prevent access to QS tiles on secure lock screen</string> 
+  <!-- Brightness slider haptic feedback -->
+  <string name="qs_brightness_slider_haptic_title">Haptic feedback</string>
+  <string name="qs_brightness_slider_haptic_summary">Provide haptic feedback on changing brightness using slider</string> 
+  <!-- WiFi Standard icon -->
+  <string name="wifi_standard_icon_title">WiFi standard</string>
+  <string name="wifi_standard_icon_summary">Display WiFi standard next to WiFi signal</string>  
+  <!-- roaming indicator-->
+  <string name="roaming_indicator_icon_title">Roaming indicator</string>
+  <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>  
+  <!-- 4G icon -->
+  <string name="show_fourg_icon_title">4G icon</string>
+  <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>  
+  <!-- Data disabled indicator -->
+  <string name="data_disabled_icon_title">Data disabled indicator</string>
+  <string name="data_disabled_icon_summary">Display the cross sign next to signal icon when data is disabled</string> 
+  <!-- Privacy Indicator -->
+  <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
+  <string name="mic_camera_privacy_indicator_summary">Show indicator when any app uses mic or camera</string>
+  <string name="location_privacy_indicator_title">Location privacy indicator</string>
+  <string name="location_privacy_indicator_summary">Show indicator when any app uses location</string>
+  <string name="projection_privacy_indicator_title">Media projection privacy indicator</string>
+  <string name="projection_privacy_indicator_summary">Show indicator when device screen is projected</string>
+  <!-- Bluetooth status -->
+  <string name="bluetooth_battery_title">Bluetooth battery status</string>
+  <string name="bluetooth_battery_summary">Display battery status for the connected bluetooth device, if available</string>
+  <!--qs rows settings-->
+  <string name="qqs_rows_portrait_title">Quick QS Rows (portrait)</string>
+  <string name="qqs_rows_landscape_title">Quick QS Rows (landscape)</string>
+  <!-- Heads up timeout -->
+  <string name="notification_heads_up_title">Heads up</string>
+  <string name="notification_heads_up_summary">Allow pop up notifications</string>
+  <string name="notification_heads_up_timeout_title">Time out</string>
+  <string name="notification_heads_up_timeout_summary">Time to display heads up notifications</string>  
+  <!-- Less boring heads up -->
+  <string name="less_boring_heads_up_title">Less boring</string>
+  <string name="less_boring_heads_up_summary">Display popup notifications only for alarm, dialer and messaging app</string>
+  <!-- Notifications while screen on -->
+  <string name="notification_sound_vib_screen_on_title">Noisy notifications</string>
+  <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+  <!-- Notification guts kill app button -->
+  <string name="notification_guts_kill_app_button_title">Force stop button</string>
+  <string name="notification_guts_kill_app_button_summary">Show force stop button in the notification\'s longpress menu</string>
+  <!-- Show clipboard overlay -->
+  <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+  <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+  <!-- Signal icons -->
+  <string name="theme_customization_signal_icon_title">Signal icon style</string>
+  <string name="theme_customization_signal_icon_summary">Set custom signal icon style</string>
+  <!-- Wifi icons -->
+  <string name="theme_customization_wifi_icon_title">WiFi icon style</string>
+  <string name="theme_customization_wifi_icon_summary">Set custom wifi icon style</string>
+  <!-- Quick Settings brightness slider -->
+  <string name="qs_show_brightness_slider_title">Brightness slider</string>
+  <string name="qs_show_brightness_slider_never">Never show</string>
+  <string name="qs_show_brightness_slider_expanded">Show when expanded</string>
+  <string name="qs_show_brightness_slider_always">Show always</string>
+  <string name="qs_show_brightness_slider_not_expanded">Show when not expanded</string>
+  <string name="qs_brightness_slider_position_title">Position</string>
+  <string name="qs_brightness_slider_position_top">Top</string>
+  <string name="qs_brightness_slider_position_bottom">Bottom</string>
+  <!-- Ignore window secure -->
+  <string name="laboratory_ignore_window_secure_title">Ignore window secure flags</string>
+  <string name="laboratory_ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+  <!-- Font style / Icon pack -->
+  <string name="theme_customization_font_title">Font style</string>
+  <string name="theme_customization_font_summary">Set system font style</string>
+  <string name="theme_customization_icon_pack_title">Icon pack</string>
+  <string name="theme_customization_icon_pack_summary">Set custom icon pack style</string>
+  <string name="theme_customization_icon_shape_title">Icon shape</string>
+  <string name="theme_customization_icon_shape_summary">Set system icon shape style</string>
+  <!-- Units -->
+  <string name="unit_seconds">seconds</string>
+  <string name="unit_milliseconds">milliseconds</string>
+  <string name="unit_pixels" translatable="false">dp</string>
+  <string name="unit_hz" translatable="false">hz</string>
+  <!-- Hide developer status -->
+  <string name="hide_developer_status_title">Hide developer status</string>
+  <string name="hide_developer_status_summary">Hide developer status from apps</string>
+  <string name="search">Search</string>
+  <string name="search_apps">Search apps</string>
+  <!-- QS Panel Style -->
+  <string name="qs_panel_style_title">QS panel style</string>
+  <string name="qs_panel_style_outline">Outline</string>
+  <string name="qs_panel_style_two_tone">Two-Tone accent</string>
+  <!-- QS Tiles Style -->
+  <string name="qs_tile_ui_style_title">QS tiles style</string>
+  <string name="qs_tile_ui_style_a11_circle">Circle tiles</string>
+  <string name="qs_tile_ui_style_a11_square">Square tiles</string>
+  <string name="qs_tile_ui_style_a11_mix">Circle &amp; Square tiles</string>
+  <!-- Weather -->
+  <string name="weather_settings_title">Weather settings</string>
+  <string name="weather_settings_summary">Setup icon pack and weather service</string>
+  <!-- Play Integrity Fix (JSON) -->
+  <string name="spoofing_pif_json_select_title">Select PIF JSON File</string>
+  <string name="spoofing_pif_json_select_summary">Pick PIF JSON file to be used for spoofing play integrity</string>
+  <string name="spoofing_pif_json_select_success">Successfully updated fingerprints. Now reboot to take effect.</string>
+  <!-- Netflix Spoof -->
+  <string name="netflix_spoof_title">Netflix spoof</string>
+  <string name="netflix_spoof_summary">Spoof your device as different model for Netflix</string>
+  <!-- Unlimited google photos storage -->
+  <string name="spoofing_photos_title">Unlimited Photos storage</string>
+  <string name="spoofing_photos_summary">Spoof your device as Pixel XL for Google Photos app only to provide unlimited storage for backup</string>
+  <!-- Unlock FPS for specific games -->
+  <string name="use_games_spoof_title">Unlock higher FPS in games</string>
+  <string name="use_games_spoof_summary">Spoof your device as different model for specific games to unlock higher FPS</string>
+  <!-- Snapchat spoof -->
+  <string name="spoofing_snap_title">Snapchat spoof</string>
+  <string name="spoofing_snap_summary">Spoof Snapchat as a Pixel XL to fix possible chat issues</string>
+  <!-- Google Play Store Spoof -->
+  <string name="spoofing_vending_title">Play Store spoof</string>
+  <string name="spoofing_vending_summary">Spoof the Play Store to the latest Pixel device</string>
+</resources>
